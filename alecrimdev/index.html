@@ -10,6 +10,10 @@
 
     <!--link css-->
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
 </head>
 <body>
     <!-- header design NAVEGAÇÃO-->
@@ -21,9 +25,10 @@
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#portfolio">portfolio</a>
-            <a href="#services">services</a>
+            <a href="#portfolio">Projetos</a>
+            <a href="#portfolio">Skils</a>
+            <a href="#portfolio">Tecnologias</a>
+            <a href="#sobres">Sobre</a>
 
         </nav>
     </header>
@@ -36,106 +41,89 @@
             <h3>Sou desenvolvedora <span class="multiple-text"></span></h3>
             <p>criação da interface do usuário (front-end) quanto no desenvolvimento do lado do servidor (back-end) de uma aplicação, usando diversas tecnologias para criar sistemas completos.</p>
 
-            <div class="social-media">
-                <a href="https://github.com/alcrm61" target="_blank"><i class='bx bxl-github'></i></a>
-                <a href="https://www.linkedin.com/in/isabela-alecrim-842031260/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-            </div>
+            
             
         </div>
 
         <div class="home-img">
-            <img src="img/img/logo04.png" alt="">
+            
         </div>
     </section>
-
-    <!--about section design SOBRE-->
-
-    <section class="about" id="sobre">
-        <div class="about-img">
-            <img src="img/img/logo007.png" alt="">
-        </div>
-
-        <div class="about-content">
-            <h2 class="heading">Sobre <span>mim</span></h2>
-            <h3>Fullstack Developer</h3>
-            <p>Olá! Meu nome é Isabela e sou uma desenvolvedora Fullstack que mora em Brasília, DF. Com um ano de experiência em desenvolvimento web, sou apaixonada por criar interfaces de usuário intuitivas e atraentes que oferecem a melhor experiência possível para o usuário.
-
-               <br>
-               <br>
-
-                Como desenvolvedor Front-end, utilizo as linguagens HTML, CSS, JavaScript Typescript e React para criar páginas da web que sejam visualmente atraentes e fáceis de usar. Busco sempre estar atualizado sobre as novas tendências e tecnologias, para entregar um produto de alta qualidade e desempenho.</p>
-
-        </div>
-    </section>
-        
     <!--portfolio section design PROJETOS-->
     <section class="portfolio" id="portfolio">
         <h2 class="heading">Principais <span>Projetos</span></h2>
-
-        <div class="portfolio-container">
-            <!--portfolio 1-->
-            <div class="portfolio-box">
-                <img src="img/img/cafe.png" alt="">
+            <div class="swiper mySwiper portfolio-container">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide portfolio-box">
+                <img src="https://i.redd.it/vcuwjyre3nr61.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Finans</h4>
                     <p>Desenvolvido com HTML5, CSS3, e Bootstrap 4. Um site de finanças pra facilitar a organização do Usuário</p>
-                    <a href="https://alcrm61.github.io/finans/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://alcrm61.github.io/finans/" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
-            </div>
+                </div>
 
-            <!--portfolio 2-->
-            <div class="portfolio-box">
-                <img src="img/img/sabor-e-amor.png" alt="">
+                <!-- Slide 2 -->
+                <div class="swiper-slide portfolio-box">
+                <img src="https://i.redd.it/vcuwjyre3nr61.png" alt="">
                 <div class="portfolio-layer">
-           
                     <h4>Sabor & Amor</h4>
                     <p>Desenvolvido com HTML5, CSS3, e JavaScript. Objetivo é um site de vendas de marmitas.</p>
-                    <a href="https://alcrm61.github.io/sabor-e-amor/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://alcrm61.github.io/sabor-e-amor/" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
-            </div>
+                </div>
 
-            <!--portfolio 3-->
-            <div class="portfolio-box">
-                <img src="img/img/Captura de tela 2024-07-15 200911.png" alt="">
+                <!-- Slide 3 -->
+                <div class="swiper-slide portfolio-box">
+                <img src="https://i.redd.it/vcuwjyre3nr61.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Cafeteria</h4>
                     <p>Desenvolvido com HTML5, CSS3, e JavaScript. Divulgar uma cafeteria.</p>
-                    <a href="#"target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
-            </div>
+                </div>
 
-            <!--portfolio 4-->
-            <div class="portfolio-box">
-                <img src="img/img/exemplo landing.png" alt="">
+                <!-- Slide 4 -->
+                <div class="swiper-slide portfolio-box">
+                <img src="https://i.redd.it/vcuwjyre3nr61.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Advocacia especializada</h4>
-                    <p>Desenvolvido com HTML5, CSS3, e JavaScript. Objetivo é realizar calcúlos básicos</p>
-                    <a href="https://alcrm61.github.io/calculadora.js/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <p>Desenvolvido com HTML5, CSS3, e JavaScript. Objetivo é realizar cálculos básicos.</p>
+                    <a href="https://alcrm61.github.io/calculadora.js/" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
-            </div>
+                </div>
 
-            <!--portfolio 5-->
-            <div class="portfolio-box">
-                <img src="img/img/exemplo portal.png" alt="">
+                <!-- Slide 5 -->
+                <div class="swiper-slide portfolio-box">
+                <img src="https://i.redd.it/vcuwjyre3nr61.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Portal Advogados</h4>
-                    <p>Ainda em processo de desenvolvivmento. Em breve.</p>
-                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                    <p>Ainda em processo de desenvolvimento. Em breve.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
-            </div>
+                </div>
 
-            <!--portfolio 6-->
-            <div class="portfolio-box">
-                <img src="img/img/previsão.png" alt="">
+                <!-- Slide 6 -->
+                <div class="swiper-slide portfolio-box">
+                <img src="https://i.redd.it/vcuwjyre3nr61.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Previsão do Tempo</h4>
-                    <p>Ainda em processo de desenvolvivmento. Em breve.</p>
-                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                    <p>Ainda em processo de desenvolvimento. Em breve.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
                 </div>
             </div>
 
+        <!-- Adiciona a paginação e botões -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
         </div>
-    </section>
+
+</section>
+
+        
 
      <!--services section design HABILIDADES-->
      <section class="services" id="services">
@@ -169,6 +157,110 @@
             </div>
         </div>
     </section>
+
+    <section id="Habilidades">
+      <div class="wrapper">
+        <header>
+         <h2 class="skills-title">Principais <span>Stacks</span></h2>
+        </header>
+    
+        <div class="cards-grid">
+          <!-- Card 1 - JavaScript -->
+          <div class="card">
+            <div class="card-content">
+              <img src="img/img/skill-icons--javascript.svg" alt="JavaScript" class="tech-logo" />
+
+              <span>JavaScript</span>
+              <p>Experiência prática em desenvolver soluções web interativas, utilizando JavaScript para manipulação de elementos, integração com APIs e criação de animações responsivas.</p>
+            </div>
+          </div>
+        
+          <!-- Card 2 - HTML -->
+          <div class="card">
+            <div class="card-content">
+              <img src="img/img/skill-icons--html.svg" alt="HTML" class="tech-logo" />
+              <span>HTML</span>
+              <p>Criação de páginas semânticas e acessíveis, estruturando conteúdos com foco em usabilidade e boas práticas de marcação.</p>
+            </div>
+          </div>
+        
+          <!-- Card 3 - CSS -->
+          <div class="card">
+            <div class="card-content">
+              <img src="img/img/skill-icons--css.svg" alt="CSS" class="tech-logo" />
+              <span>CSS</span>
+              <p>Estilização de interfaces modernas e responsivas, aplicando layouts flexíveis e animações sutis para aprimorar a experiência do usuário.</p>
+            </div>
+          </div>
+        
+          <!-- Card 4 - Java -->
+          <div class="card">
+            <div class="card-content">
+              <img src="img/img/skill-icons--java-dark.svg" alt="JAVA" class="tech-logo" />
+              <span>Java</span>
+              <p>Desenvolvimento de aplicações robustas e escaláveis, utilizando os recursos da linguagem Java para soluções back-end e integração de sistemas.</p>
+            </div>
+          </div>
+        
+          <!-- Card 5 - MySQL -->
+          <div class="card">
+            <div class="card-content">
+                <img src="img/img/skill-icons--mysql-dark.svg" alt="MySQL" class="tech-logo" />
+              <span>MySQL</span>
+              <p>Modelagem e administração de bancos de dados relacionais com MySQL, garantindo performance, integridade e segurança dos dados.</p>
+            </div>
+          </div>
+        
+          <!-- Card 6 - Figma -->
+          <div class="card">
+            <div class="card-content">
+              <img src="img/img/skill-icons--figma-dark.svg" alt="FIGMA" class="tech-logo" />
+              <span>Figma</span>
+              <p>Domínio em criação de interfaces modernas e responsivas, com foco em usabilidade e prototipação eficiente para experiências intuitivas.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+                <img src="img/img/skill-icons--git.svg" alt="GIT" class="tech-logo" />
+             <span>Git</span>
+              <p>   Experiência sólida com controle de versões, colaboração em equipe e fluxos como Git Flow, garantindo organização e segurança no desenvolvimento.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <img src="img/img/skill-icons--react-dark.svg" alt="REACT" class="tech-logo" />
+              <span>React</span>
+              <p>   Tenho conhecimento em React com foco na criação de interfaces responsivas usando componentes funcionais, hooks e integração com bibliotecas como Tailwind CSS.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+   
+
+    <!--about section design SOBRE-->
+
+    <section class="about" id="sobre">
+        <div class="about-img">
+            <img src="img/img/logo007.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Sobre <span>mim</span></h2>
+            <h3>Fullstack Developer</h3>
+            <p>Olá! Meu nome é Isabela e sou uma desenvolvedora Fullstack que mora em Brasília, DF. Com um ano de experiência em desenvolvimento web, sou apaixonada por criar interfaces de usuário intuitivas e atraentes que oferecem a melhor experiência possível para o usuário.
+
+               <br>
+               <br>
+
+                Como desenvolvedor Front-end, utilizo as linguagens HTML, CSS, JavaScript Typescript e React para criar páginas da web que sejam visualmente atraentes e fáceis de usar. Busco sempre estar atualizado sobre as novas tendências e tecnologias, para entregar um produto de alta qualidade e desempenho.</p>
+
+                <div class="social-media">
+                <a href="https://github.com/alcrm61" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/isabela-alecrim-842031260/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        </div>
+
+    </section>
     
     <!--contact design-->
 
@@ -185,7 +277,39 @@
         </footer>
     </footer>
 
-    <!--bagui da letra mexendo-->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const swiper = new Swiper(".mySwiper", {
+      loop: true,
+      grabCursor: true,
+      spaceBetween: 30,
+      slidesPerView: 1,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      },
+    });
+  });
+</script>
+     <!--bagui da letra mexendo-->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <!--bagui de cor-->
     <script src="https://unpkg.com/scrollreveal"></script>

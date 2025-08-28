@@ -430,6 +430,11 @@ span{
   width: 100%;
   min-height: 320px;
 }
+#Habilidades .tech-logo {
+  width: 80px;   /* ou ajuste */
+  height: auto;
+  margin-bottom: 1rem;
+}
 
 #Habilidades .card-content {
   display: flex;
